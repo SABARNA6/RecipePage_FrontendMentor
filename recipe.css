@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Young';
+    src:url('./assets/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    
+}
+@font-face {
+    font-family: 'outlet';
+    src:url('./assets/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: 460;
+}
+body{
+    margin:2rem;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'outlet';
+    color:hsl(30, 10%, 34%);
+    font-size: 1.8vw;
+}
+*{
+    border-radius: 15px;
+}
+.omelette {
+    width: 100%;
+}
+p {
+    font-family: 'outlet';
+   
+    color:hsl(30, 10%, 34%);
+}
+h1{
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young';
+    letter-spacing: 1px;
+    font-size: 3.8vw;
+    font-weight:lighter;
+}
+.card{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2vw;
+}
+
+.card h2,.card li::marker{
+    color:hsl(332, 51%, 32%);
+}
+ul{
+    line-height:2;
+    text-indent: 20px;
+}
+.items{
+    padding: 2px;
+}
+.title-bold{
+    color:hsl(30, 10%, 34%);
+    font-weight: bold;
+}
+.items h2{
+    font-family: 'Young';
+    letter-spacing: 1px;
+    color: hsl(14, 45%, 36%);
+    font-size: 3vw;
+    font-weight: lighter;
+}
+hr{
+    height: 0.3vw;
+    background-color:hsl(30, 18%, 87%);
+    border:none;
+}
+.list-num li
+{
+    line-height:2;
+   padding-left: 30px;
+}
+.list-num li::marker
+{
+    font-weight:bold;
+    color:hsl(14, 45%, 36%);
+}
+table{
+    width: 100%;
+    border-radius: 0;
+    border-collapse: collapse;
+}
+td{
+    padding: 5lvh;
+    border-bottom: solid hsl(30, 18%, 87%);
+}
+
+/*
+- White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+
+
+*/
